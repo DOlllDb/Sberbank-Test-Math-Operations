@@ -1,0 +1,66 @@
+{
+  "uid" : "421194e714ee2a2b",
+  "name" : "test1[1: does 5 * 10 evaluates to 50?]",
+  "title" : "Test 1 [1: does 5 * 10 evaluates to 50?]",
+  "time" : {
+    "start" : 1463749502719,
+    "stop" : 1463749502719,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "f2c6c4bcd282ceaf",
+    "name" : "operations.tests.Tests",
+    "title" : "Tests"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-73S0VDU"
+  }, {
+    "name" : "thread",
+    "value" : "9792@DESKTOP-73S0VDU.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Basic math operations"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "operations.tests.Tests"
+  } ],
+  "parameters" : [ {
+    "name" : "Operand 1",
+    "value" : "5",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "Operand 2",
+    "value" : "10",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "Operation",
+    "value" : "*",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "Result",
+    "value" : "50",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

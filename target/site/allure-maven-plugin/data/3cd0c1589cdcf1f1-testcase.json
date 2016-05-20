@@ -1,0 +1,66 @@
+{
+  "uid" : "3cd0c1589cdcf1f1",
+  "name" : "test1[3: does 7 - 3 evaluates to 4?]",
+  "title" : "Test 1 [3: does 7 - 3 evaluates to 4?]",
+  "time" : {
+    "start" : 1463749502750,
+    "stop" : 1463749502751,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "f2c6c4bcd282ceaf",
+    "name" : "operations.tests.Tests",
+    "title" : "Tests"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-73S0VDU"
+  }, {
+    "name" : "thread",
+    "value" : "9792@DESKTOP-73S0VDU.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Basic math operations"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "operations.tests.Tests"
+  } ],
+  "parameters" : [ {
+    "name" : "Operand 1",
+    "value" : "7",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "Operand 2",
+    "value" : "3",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "Operation",
+    "value" : "-",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "Result",
+    "value" : "4",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

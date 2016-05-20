@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: operations.tests.Tests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.821 sec <<< FAILURE! - in operations.tests.Tests
+test1[4: does 8 - 1 evaluates to 6?](operations.tests.Tests)  Time elapsed: 0.034 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<7.0> but was:<6.0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:553)
+	at org.junit.Assert.assertEquals(Assert.java:683)
+	at operations.tests.Tests.test1(Tests.java:69)
+
