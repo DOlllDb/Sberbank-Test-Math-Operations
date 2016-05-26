@@ -6,7 +6,6 @@ package operations.tests;
 import static org.junit.Assert.assertEquals;
 
 import java.util.Collection;
-
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -22,7 +21,8 @@ public class Tests {
 
 	@Parameters(name = "{index}: does {0} {2} {1} evaluates to {3}?")
 	public static Collection<Object[]> getParams() {
-		return ParseCsvService.parseCSV("D:\\Programming\\operations.txt");
+		return ParseCsvService.parseCSV("operations.csv", true); // с использованием файла из ресурсов
+//		return ParseCsvService.parseCSV("<path_to_a_file>", false); // С указанием файла csv вне ресурсов проекта
 	}
 
 	@Parameter("Operand 1")
